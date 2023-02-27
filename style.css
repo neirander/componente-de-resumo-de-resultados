@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body,
+p,
+h2,
+h3,
+ul,
+::after,
+::before {
+  margin: 0;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+main {
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, 0.2) 0px 18px 50px -10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.grid1 {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  padding: 30px 10px;
+  align-content: space-evenly;
+}
+.grid1 h2 {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+.grid1 .circulo {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid1 span {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.grid1 p {
+  color: hsla(221, 100%, 96%, 0.6);
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: -10px;
+}
+.circulo p {
+  color: hsl(0, 0%, 100%);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.circulo span {
+  color: hsla(221, 100%, 96%, 0.6);
+  font-size: initial;
+  font-size: 12px;
+  margin-top: -6px;
+}
+.grid2 {
+  border-radius: 20px;
+  display: grid;
+  gap: 20px;
+  padding: 30px 30px;
+  align-content: flex-start;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  font-size: 13px;
+}
+.menu-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.menu-item span {
+  margin-left: -23px;
+}
+.grid2 ul li:nth-child(1) {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%, 0.8);
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+}
+.grid2 ul li:nth-child(2) {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%, 0.8);
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+}
+.grid2 ul li:nth-child(3) {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%, 0.8);
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+}
+.grid2 ul li:nth-child(4) {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%, 0.8);
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+}
+button {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 0;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+button:hover {
+  background-color: hsla(224, 30%, 27%, 0.8);
+}
+@media (max-width: 575px) {
+  main {
+    width: 375px;
+    grid-template-columns: 1fr;
+  }
+  .grid1 {
+    gap: 20px;
+    padding: 30px 10px;
+    align-content: space-evenly;
+  }
+}
+.testecor {
+  color: hsl(0, 100%, 67%);
+  color: hsl(39, 100%, 56%);
+  color: hsl(166, 100%, 37%);
+  color: hsl(234, 85%, 45%);
+  color: hsl(252, 100%, 67%);
+  color: hsl(241, 81%, 54%);
+  color: hsla(256, 72%, 46%, 1);
+  color: hsla(241, 72%, 46%, 0);
+  color: hsl(0, 0%, 100%);
+  color: hsl(221, 100%, 96%);
+  color: hsl(241, 100%, 89%);
+  color: hsl(224, 30%, 27%);
+}

@@ -3,7 +3,7 @@
 Esta é uma solução para o [desafio do componente de resumo de resultados no Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Visão geral
-
+![](./screenshot.jpg)
 ### O desafio
 
 Os usuários devem ser capazes de:
